@@ -1,24 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/header/Header'
+import Banner from './components/banner/Banner'
+import Footer from './components/footer/Footer'
+
+
 
 function App() {
+
+  const nome = 'Renan';
+  const mensagem = "Confia S.A."
+  const clique = 'Clique aqui'
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Header/>
+    <Banner nome={nome} clique={clique}/>
+    <Footer mensagem={mensagem}/>
+    </>
   );
 }
 

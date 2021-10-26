@@ -1,0 +1,32 @@
+#banner {
+    background-color: blue;
+    min-height: 72.5vh;
+    background-image: url(./vetor-de-carros-esportivos.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+}
+
+.paragrafo-banner {
+    position: fixed;
+    top: 200px;
+    right: 100px;
+    color: brown;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: cyan;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: 60px;
+    left: 60px;
+}
+

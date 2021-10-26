@@ -1,0 +1,15 @@
+#footer {
+    background-color: brown;
+    height: 12.5vh;
+}
+
+.paragrafo-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: cyan;
+    /* position: fixed;
+    bottom: 35px;
+    right: 35px; */
+    font-size: 50px;
+}
